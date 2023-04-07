@@ -1,0 +1,60 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+}
+
+.screen{
+  height: 100%;
+  width: 80%;
+  background-color: azure;
+}
+
+.panel{
+  padding: 2vw;
+  height: 100%;
+  width: 20%;
+  background-color: rgb(243, 125, 135);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul{
+  margin: 2vmax 0 ;
+}
+
+ul li{
+  margin: 1vmax 0 ;
+  color: white;
+  font: 400 1.2vmax "open sans";
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+
+
+.input{
+  background-color:black;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 1vw;
+  color: white;
+}
